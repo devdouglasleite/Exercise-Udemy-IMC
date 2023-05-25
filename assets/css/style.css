@@ -1,0 +1,58 @@
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:rgb(3, 133, 111);
+    font-size: 1.3em ;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(230, 228, 228);
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%; 
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+form input:focus {
+    outline: var(--primary-color)
+}
+
+form button {
+    border: none;
+    background-color: rgba(90, 199, 90, 0.836);
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 35px;
+}
+
+form button:hover {
+    background-color: green;
+}
+
+p {
+    font-size: 25px;
+}
+
+label {
+    font-size: 25px;
+}
